@@ -1,0 +1,76 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/_document";
+exports.ids = ["pages/_document"];
+exports.modules = {
+
+/***/ "./pages/_document.tsx":
+/*!*****************************!*\
+  !*** ./pages/_document.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/document */ \"./node_modules/next/document.js\");\n/* harmony import */ var next_document__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_document__WEBPACK_IMPORTED_MODULE_1__);\n\n\nclass MyDocument extends (next_document__WEBPACK_IMPORTED_MODULE_1___default()) {\n    render() {\n        return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Html, {\n            lang: \"en\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Head, {\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            rel: \"preload\",\n                            href: \"/fonts/inter-var-latin.woff2\",\n                            as: \"font\",\n                            type: \"font/woff2\",\n                            crossOrigin: \"anonymous\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 8,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            href: \"/static/favicons/favicon.ico\",\n                            rel: \"shortcut icon\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 15,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            href: \"/static/favicons/site.webmanifest\",\n                            rel: \"manifest\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 16,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            href: \"/static/favicons/apple-touch-icon.png\",\n                            rel: \"apple-touch-icon\",\n                            sizes: \"180x180\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            href: \"/static/favicons/favicon-32x32.png\",\n                            rel: \"icon\",\n                            sizes: \"32x32\",\n                            type: \"image/png\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 22,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            href: \"/static/favicons/favicon-16x16.png\",\n                            rel: \"icon\",\n                            sizes: \"16x16\",\n                            type: \"image/png\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 28,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"link\", {\n                            color: \"#4a9885\",\n                            href: \"/static/favicons/safari-pinned-tab.svg\",\n                            rel: \"mask-icon\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 34,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            content: \"/static/favicons/browserconfig.xml\",\n                            name: \"msapplication-config\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 39,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"theme-color\",\n                            content: \"#ffffff\",\n                            media: \"(prefers-color-scheme: light)\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 43,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"meta\", {\n                            name: \"theme-color\",\n                            content: \"#171717\",\n                            media: \"(prefers-color-scheme: dark)\"\n                        }, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 48,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n                    className: \"bg-white dark:bg-gray-900\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.Main, {}, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 55,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(next_document__WEBPACK_IMPORTED_MODULE_1__.NextScript, {}, void 0, false, {\n                            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                            lineNumber: 56,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n                    lineNumber: 54,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/retrack/Desktop/sb-site/pages/_document.tsx\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, this);\n    }\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (MyDocument);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9fZG9jdW1lbnQudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFzRTtBQUV0RSxNQUFNSyxtQkFBbUJMLHNEQUFRQTtJQUMvQk0sU0FBUztRQUNQLHFCQUNFLDhEQUFDSiwrQ0FBSUE7WUFBQ0ssTUFBSzs7OEJBQ1QsOERBQUNOLCtDQUFJQTs7c0NBQ0gsOERBQUNPOzRCQUNDQyxLQUFJOzRCQUNKQyxNQUFLOzRCQUNMQyxJQUFHOzRCQUNIQyxNQUFLOzRCQUNMQyxhQUFZOzs7Ozs7c0NBRWQsOERBQUNMOzRCQUFLRSxNQUFLOzRCQUErQkQsS0FBSTs7Ozs7O3NDQUM5Qyw4REFBQ0Q7NEJBQUtFLE1BQUs7NEJBQW9DRCxLQUFJOzs7Ozs7c0NBQ25ELDhEQUFDRDs0QkFDQ0UsTUFBSzs0QkFDTEQsS0FBSTs0QkFDSkssT0FBTTs7Ozs7O3NDQUVSLDhEQUFDTjs0QkFDQ0UsTUFBSzs0QkFDTEQsS0FBSTs0QkFDSkssT0FBTTs0QkFDTkYsTUFBSzs7Ozs7O3NDQUVQLDhEQUFDSjs0QkFDQ0UsTUFBSzs0QkFDTEQsS0FBSTs0QkFDSkssT0FBTTs0QkFDTkYsTUFBSzs7Ozs7O3NDQUVQLDhEQUFDSjs0QkFDQ08sT0FBTTs0QkFDTkwsTUFBSzs0QkFDTEQsS0FBSTs7Ozs7O3NDQUVOLDhEQUFDTzs0QkFDQ0MsU0FBUTs0QkFDUkMsTUFBSzs7Ozs7O3NDQUVQLDhEQUFDRjs0QkFDQ0UsTUFBSzs0QkFDTEQsU0FBUTs0QkFDUkUsT0FBTTs7Ozs7O3NDQUVSLDhEQUFDSDs0QkFDQ0UsTUFBSzs0QkFDTEQsU0FBUTs0QkFDUkUsT0FBTTs7Ozs7Ozs7Ozs7OzhCQUdWLDhEQUFDQztvQkFBS0MsV0FBVTs7c0NBQ2QsOERBQUNsQiwrQ0FBSUE7Ozs7O3NDQUNMLDhEQUFDQyxxREFBVUE7Ozs7Ozs7Ozs7Ozs7Ozs7O0lBSW5CO0FBQ0Y7QUFFQSxpRUFBZUMsVUFBVUEsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL3RzLW5leHQtdGFpbHdpbmQtdGVtcGxhdGUvLi9wYWdlcy9fZG9jdW1lbnQudHN4P2QzN2QiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IERvY3VtZW50LCB7IEhlYWQsIEh0bWwsIE1haW4sIE5leHRTY3JpcHQgfSBmcm9tICduZXh0L2RvY3VtZW50J1xuXG5jbGFzcyBNeURvY3VtZW50IGV4dGVuZHMgRG9jdW1lbnQge1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxIdG1sIGxhbmc9J2VuJz5cbiAgICAgICAgPEhlYWQ+XG4gICAgICAgICAgPGxpbmtcbiAgICAgICAgICAgIHJlbD0ncHJlbG9hZCdcbiAgICAgICAgICAgIGhyZWY9Jy9mb250cy9pbnRlci12YXItbGF0aW4ud29mZjInXG4gICAgICAgICAgICBhcz0nZm9udCdcbiAgICAgICAgICAgIHR5cGU9J2ZvbnQvd29mZjInXG4gICAgICAgICAgICBjcm9zc09yaWdpbj0nYW5vbnltb3VzJ1xuICAgICAgICAgIC8+XG4gICAgICAgICAgPGxpbmsgaHJlZj0nL3N0YXRpYy9mYXZpY29ucy9mYXZpY29uLmljbycgcmVsPSdzaG9ydGN1dCBpY29uJyAvPlxuICAgICAgICAgIDxsaW5rIGhyZWY9Jy9zdGF0aWMvZmF2aWNvbnMvc2l0ZS53ZWJtYW5pZmVzdCcgcmVsPSdtYW5pZmVzdCcgLz5cbiAgICAgICAgICA8bGlua1xuICAgICAgICAgICAgaHJlZj0nL3N0YXRpYy9mYXZpY29ucy9hcHBsZS10b3VjaC1pY29uLnBuZydcbiAgICAgICAgICAgIHJlbD0nYXBwbGUtdG91Y2gtaWNvbidcbiAgICAgICAgICAgIHNpemVzPScxODB4MTgwJ1xuICAgICAgICAgIC8+XG4gICAgICAgICAgPGxpbmtcbiAgICAgICAgICAgIGhyZWY9Jy9zdGF0aWMvZmF2aWNvbnMvZmF2aWNvbi0zMngzMi5wbmcnXG4gICAgICAgICAgICByZWw9J2ljb24nXG4gICAgICAgICAgICBzaXplcz0nMzJ4MzInXG4gICAgICAgICAgICB0eXBlPSdpbWFnZS9wbmcnXG4gICAgICAgICAgLz5cbiAgICAgICAgICA8bGlua1xuICAgICAgICAgICAgaHJlZj0nL3N0YXRpYy9mYXZpY29ucy9mYXZpY29uLTE2eDE2LnBuZydcbiAgICAgICAgICAgIHJlbD0naWNvbidcbiAgICAgICAgICAgIHNpemVzPScxNngxNidcbiAgICAgICAgICAgIHR5cGU9J2ltYWdlL3BuZydcbiAgICAgICAgICAvPlxuICAgICAgICAgIDxsaW5rXG4gICAgICAgICAgICBjb2xvcj0nIzRhOTg4NSdcbiAgICAgICAgICAgIGhyZWY9Jy9zdGF0aWMvZmF2aWNvbnMvc2FmYXJpLXBpbm5lZC10YWIuc3ZnJ1xuICAgICAgICAgICAgcmVsPSdtYXNrLWljb24nXG4gICAgICAgICAgLz5cbiAgICAgICAgICA8bWV0YVxuICAgICAgICAgICAgY29udGVudD0nL3N0YXRpYy9mYXZpY29ucy9icm93c2VyY29uZmlnLnhtbCdcbiAgICAgICAgICAgIG5hbWU9J21zYXBwbGljYXRpb24tY29uZmlnJ1xuICAgICAgICAgIC8+XG4gICAgICAgICAgPG1ldGFcbiAgICAgICAgICAgIG5hbWU9J3RoZW1lLWNvbG9yJ1xuICAgICAgICAgICAgY29udGVudD0nI2ZmZmZmZidcbiAgICAgICAgICAgIG1lZGlhPScocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSdcbiAgICAgICAgICAvPlxuICAgICAgICAgIDxtZXRhXG4gICAgICAgICAgICBuYW1lPSd0aGVtZS1jb2xvcidcbiAgICAgICAgICAgIGNvbnRlbnQ9JyMxNzE3MTcnXG4gICAgICAgICAgICBtZWRpYT0nKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSdcbiAgICAgICAgICAvPlxuICAgICAgICA8L0hlYWQ+XG4gICAgICAgIDxib2R5IGNsYXNzTmFtZT0nYmctd2hpdGUgZGFyazpiZy1ncmF5LTkwMCc+XG4gICAgICAgICAgPE1haW4gLz5cbiAgICAgICAgICA8TmV4dFNjcmlwdCAvPlxuICAgICAgICA8L2JvZHk+XG4gICAgICA8L0h0bWw+XG4gICAgKVxuICB9XG59XG5cbmV4cG9ydCBkZWZhdWx0IE15RG9jdW1lbnRcbiJdLCJuYW1lcyI6WyJEb2N1bWVudCIsIkhlYWQiLCJIdG1sIiwiTWFpbiIsIk5leHRTY3JpcHQiLCJNeURvY3VtZW50IiwicmVuZGVyIiwibGFuZyIsImxpbmsiLCJyZWwiLCJocmVmIiwiYXMiLCJ0eXBlIiwiY3Jvc3NPcmlnaW4iLCJzaXplcyIsImNvbG9yIiwibWV0YSIsImNvbnRlbnQiLCJuYW1lIiwibWVkaWEiLCJib2R5IiwiY2xhc3NOYW1lIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/_document.tsx\n");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages.runtime.dev.js":
+/*!**********************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages.runtime.dev.js" ***!
+  \**********************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages.runtime.dev.js");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("./pages/_document.tsx")));
+module.exports = __webpack_exports__;
+
+})();
