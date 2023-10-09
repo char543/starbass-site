@@ -25,13 +25,13 @@ export default function BigText({ slides }: BigTextProps) {
   return (
     <div className='flex flex-col items-center text-6xl font-extrabold tracking-tight md:text-9xl'>
       <div className='flex flex-col items-center'>
-        <p className='text-2xl tracking-normal sm:text-3xl'>The ultimate underground community</p>
+        <p className='text-2xl tracking-normal sm:text-3xl '>The ultimate underground community</p>
         {slides.map((text, index) => {
           return (
-            <span key={index} className='relative block text-center'>
+            <span key={index} className='relative block text-center hover:!text-green-600'>
               <span
                 className={classNames(
-                  'absolute transition duration-1000',
+                  'absolute transition duration-700',
                   currentSlide !== index ? 'opacity-100' : 'opacity-0'
                 )}
                 aria-hidden={true}

@@ -49,12 +49,12 @@ export default function Container(props: any) {
           href={`https://template.cretu.dev/${router.asPath}`}
         />
         <meta property='og:type' content={meta.type} />
-        <meta property='og:site_name' content='Cristian Crețu' />
+        <meta property='og:site_name' content='Starbass' />
         <meta property='og:description' content={meta.description} />
         <meta property='og:title' content={meta.title} />
         <meta property='og:image' content={meta.image} />
         <meta name='twitter:card' content='summary_large_image' />
-        <meta name='twitter:site' content='@cristicrtu' />
+        <meta name='twitter:site' content='@starbass' />
         <meta name='twitter:title' content={meta.title} />
         <meta name='twitter:description' content={meta.description} />
         <meta name='twitter:image' content={meta.image} />
@@ -65,7 +65,7 @@ export default function Container(props: any) {
 
       <nav className='sticky w-full bg-gray-100/40 z-[1] filter-blur dark:bg-gray-1000/40 top-2 md:top-4 max-w-2xl px-4 py-2 rounded-md mx-auto flex justify-between items-center'>
         <div className='flex flex-row gap-1 text-tertiary'>
-          <Link href='/' className='transition-all cursor-pointer hover:text-primary'>
+          <Link href='/' className='transition-all cursor-pointer hover:text-green-600'>
             
               Home
             
