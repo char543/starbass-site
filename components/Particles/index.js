@@ -1,8 +1,8 @@
 import React from 'react';
 import { loadFull } from 'tsparticles';
 import Particles from 'react-tsparticles';
-import Img1 from '/public/sb-logo.jpeg';
-import Img2 from '/public/sb-logo.jpeg';
+import Img1 from '/public/sb-png.png';
+import Img2 from '/public/sb-png.png';
 import Img3 from '/public/img-1.png';
 import Img4 from '/public/img-6.png';
 import Img5 from '/public/img-8.png';
