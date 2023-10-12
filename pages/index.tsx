@@ -9,11 +9,11 @@ export default function Home() {
       <ParticlesComponent />
       <div className='flex flex-col items-between inset-0 z-50'>
       <BigText slides={[
-          <Link href='/a' className='hover:text-green-600'>Starbass.</Link>,
-          <Link href='/'>Streams.</Link>,
+          <Link href='/' className='hover:text-green-600'>Starbass.</Link>,
+          <Link href='https://stream.starbass.co.uk'>Streams.</Link>,
           <Link href='/'>Gallery.</Link>,
           <Link href='/'>Events.</Link>,
-          <Link href='/'>Merch.</Link>
+          <Link href='https://store.starbass.co.uk'>Merch.</Link>
         ]} />
       </div>
     </Container>
